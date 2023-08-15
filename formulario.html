@@ -4,6 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Formulario</title>
+
+		<link rel="stylesheet" href="./css/estilo.css">
+
+
 </head>
 <body>
 	
@@ -21,33 +25,36 @@
 <hr>
 	
 	<h2>Registrese en la página</h2>
-
-	<form >
+	<section class="card">
+		<form >
 		
-		<label for="nombre">Nombre:</label>
-		<input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+		<label  for="nombre">Nombre:</label>
+		<input class="in-text" type="text" id="nombre" placeholder="Ingrese su nombre" required>
 
 		<br>
 		<br>
 
-		<label for="correo">Email</label>
-		<input type="Email"  id="correo" placeholder="Ingrese su Email">
+		<label  for="correo">Email</label>
+		<input class="in-text" type="Email"  id="correo" placeholder="Ingrese su Email">
 
 		<br>
 		<br>
 
-		<label for="password">Contraseña</label>
+		<label  for="password">Contraseña</label>
 
-		<input type="password"  id="password" placeholder="Ingrese su contraseña" required>
+		<input class="in-text" type="password"  id="password" placeholder="Ingrese su contraseña" required>
 
 		<br>
 		<br>
 
-		<input type="submit" value="Guardar">
+		<input class="btn btn-sub" type="submit" value="Guardar">
 
-		<input type="reset" value="Cancelar">
+		<input class="btn btn-res" type="reset" value="Cancelar">
 
 	</form>
+
+	</section>
+	
 
 
 

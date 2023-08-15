@@ -1,0 +1,67 @@
+body{
+	background: floralwhite;
+
+	whidth:80% ;
+	margin: 0auto;
+}
+
+
+h1{
+	text-align: center;
+	color: rebeccapurple;
+}
+
+nav{
+	background: #ccc;
+	height: 30px;
+	padding: 10px 20px ;
+	border-radius: 5px ;
+	word-spacing: 20px;
+ }
+  nav a {
+  	text-decoration: none;
+ 	font-size: 18px;
+ 	color: rgb(234, 30, 250, 1.0);
+  }
+ 	nav a:hover {
+ 		text-shadow: 0 0 8px grey;
+ 	}
+
+.card{
+	text-align: center;
+	border: 1px #ccc solid;
+	padding:50px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 2px grey , 0 0 8px 3px black;
+
+}
+label {
+	color: grey;
+	font-size: 1.2rem;
+}
+
+
+.in-text{
+	width: 200px;
+	height: 20px;
+	padding: 0 10px;
+	border-radius: 5px;
+	font-size: 1rem;
+	background: #ccc;
+	border: none;
+}
+.btn{
+	width: 100px;
+	height: 30px;
+	margin-top: 5px;
+	border-radius: 4px;
+	font-size: 1rem;
+}
+.btn-sub{
+	background: aliceblue;
+	color:black;
+}
+.btn-res{
+	background: lightgray;
+	color: black;
+}
